@@ -16,7 +16,7 @@
 
 描述一个比特币过程，或者提出一个过程的更改（或一个事件）。过程类BIP类似于标准类BIP，但适用于比特币协议本身以外的其他领域。他们可能会提出一个实现，但不是比特币的代码库;他们经常需要社区的共识;与信息类BIP不同，它们不仅仅是建议，用户通常也不能随意忽略它们。例如包括程序，指南，决策过程的变化以及对比特币开发中使用的工具或环境的更改。任何元BIP也被视为一个过程BIP。
 
-BIP记录在GitHub上的版本化存储库中：https://github.com/bitcoin/bips。 下表BIP的快照显示在2017年4月BIP的快照。了解有关现有BIP及其内容的最新信息请咨询权威机构。
+BIP记录在GitHub上的版本化存储库中：https://github.com/bitcoin/bips。下表BIP的快照显示在2017年4月BIP的快照。了解有关现有BIP及其内容的最新信息请咨询权威机构。
 
   BIP#   	Title                                   	Owner                                   	Type         	Status              
   BIP-1  	BIP Purpose and Guidelines              	Amir Taaki                              	Process      	Replaced            

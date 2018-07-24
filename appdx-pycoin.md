@@ -6,7 +6,7 @@ pycoin库支持Python 2（2.7.x）和Python 3（3.3之后），并附带一些�
 
 ## 1.实用工具（KU）
 
-命令行实用程序ku（“密钥实用程序”）是用于操纵密钥的瑞士军刀。 它支持BIP-32键，WIF和地址（比特币和代币）。 以下是一些例子。
+命令行实用程序ku（“密钥实用程序”）是用于操纵密钥的瑞士军刀。它支持BIP-32键，WIF和地址（比特币和代币）。以下是一些例子。
 
 使用GPG和/ dev / random的默认熵源创建一个BIP-32密钥：
 
@@ -338,7 +338,7 @@ tx: error: can't find Tx with id 49d2adb6e476fa46d8357babf78b1b501fd39e177ac7833
 
 ```
 
-哎呀！ 我们没有设置Web服务。 现在我们来做：
+哎呀！ 我们没有设置Web服务。现在我们来做：
 
 ```
 $ PYCOIN_CACHE_DIR=~/.pycoin_cache
@@ -347,7 +347,7 @@ $ export PYCOIN_CACHE_DIR PYCOIN_SERVICE_PROVIDERS
 
 ```
 
-这不是自动完成的，所以命令行工具不会泄漏潜在的关于您对第三方网站感兴趣的交易的私人信息。 如果您不在乎，可以将这些行放入.profile。
+这不是自动完成的，所以命令行工具不会泄漏潜在的关于您对第三方网站感兴趣的交易的私人信息。如果您不在乎，可以将这些行放入.profile。
 
 让我们再试一次：
 
@@ -369,7 +369,7 @@ including unspents in hex dump since transaction not fully signed
 
 ```
 
-出现最后一行是为了验证交易的签名，您技术上需要源代码交易。 所以我们来添加-a来增加源信息的交易：
+出现最后一行是为了验证交易的签名，您技术上需要源代码交易。所以我们来添加-a来增加源信息的交易：
 
 ```
 $ tx -a 49d2adb6e476fa46d8357babf78b1b501fd39e177ac7833124b3f67b17c40c2a
@@ -394,7 +394,7 @@ all incoming transaction values validated
 
 ```
 
-现在，我们来看一下特定地址（UTXO）的未使用输出。 在块＃1中，我们看到一个钱币交易到12c6DSiU4Rq3P4ZxziKxzrL5LmMBrzjrJX。 让我们用fetch_unspent来查找这个地址中的所有钱币：
+现在，我们来看一下特定地址（UTXO）的未使用输出。在块＃1中，我们看到一个钱币交易到12c6DSiU4Rq3P4ZxziKxzrL5LmMBrzjrJX。让我们用fetch_unspent来查找这个地址中的所有钱币：
 
 ```
 $ fetch_unspent 12c6DSiU4Rq3P4ZxziKxzrL5LmMBrzjrJX
